@@ -1,0 +1,12 @@
+.mainGameContainer {
+    margin-top: 70px;
+    box-sizing: border-box;
+
+}
+
+.sectionTitle {
+    color: rgb(170, 170, 170);
+    padding:0px 0px 40px 0px;
+    display: flex;
+    align-items: center;
+}

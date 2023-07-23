@@ -1,0 +1,41 @@
+.mainCard {
+    box-sizing: border-box;
+    transition: all .2s ease-in-out;
+}
+
+.productImg {
+    width: 100%;
+    height: auto;
+    /*border-radius: 5px;*/
+    /*box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;*/
+}
+
+
+.plusHover {
+    stroke: #1c1e22;
+}
+.plusHover:hover {
+    fill: white;
+}
+
+.productBody {
+    padding: 22px;
+    background: #32383e;
+}
+
+
+
+.gameTitle {
+    color: #aaa;
+    font-size: 22px;
+    overflow: hidden;
+    height: 30px;
+}
+
+.mainCard:hover {
+    transform: scale(1.02);
+    box-shadow: 0 .9rem 1rem rgba(0,0,0,.199)!important;
+    z-index: 1;
+    cursor: pointer;
+}
+

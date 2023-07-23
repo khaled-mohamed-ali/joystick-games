@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cb25ee96-01fb-48db-9095-3d5136497af2" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/app/browser/[[...slug]]/page.jsx" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2QjbaAShHRIbSGhn9qbaa3XvGsa" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/next-app/app&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\next-app\app" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\next-app\app" />
+      <recent name="E:\next-app\app\category" />
+      <recent name="E:\next-app" />
+      <recent name="E:\next-app\app\store" />
+      <recent name="E:\next-app\lib" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cb25ee96-01fb-48db-9095-3d5136497af2" name="Changes" comment="" />
+      <created>1685870007840</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1685870007840</updated>
+      <workItem from="1685870014321" duration="13050000" />
+      <workItem from="1685888970645" duration="313000" />
+      <workItem from="1685890849938" duration="2963000" />
+      <workItem from="1685908864431" duration="4427000" />
+      <workItem from="1685913644076" duration="90898000" />
+      <workItem from="1686410121326" duration="1274000" />
+      <workItem from="1686426981340" duration="435000" />
+      <workItem from="1686450574208" duration="55646000" />
+      <workItem from="1686800657053" duration="10290000" />
+      <workItem from="1686906716395" duration="2803000" />
+      <workItem from="1687014952309" duration="51874000" />
+      <workItem from="1687266087353" duration="3771000" />
+      <workItem from="1687307231616" duration="33498000" />
+      <workItem from="1688129664036" duration="34401000" />
+      <workItem from="1688424904258" duration="31082000" />
+      <workItem from="1688690422003" duration="22977000" />
+      <workItem from="1688849803588" duration="11072000" />
+      <workItem from="1688869177454" duration="2104000" />
+      <workItem from="1688871324681" duration="44394000" />
+      <workItem from="1689047912966" duration="7782000" />
+      <workItem from="1689130902274" duration="946000" />
+      <workItem from="1689132938432" duration="37628000" />
+      <workItem from="1690010710677" duration="562000" />
+      <workItem from="1690011331763" duration="1671000" />
+      <workItem from="1690053913198" duration="4218000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

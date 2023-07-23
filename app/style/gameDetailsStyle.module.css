@@ -1,0 +1,39 @@
+.reviewTextArea {
+    background: #1c1e22;
+    border: 0;
+    font-size: 14px;
+    outline: none;
+    cursor: text;
+    position: relative;
+}
+
+.textArContainer {
+    position: relative;
+}
+
+
+.textArContainer::before {
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid #1c1e22;
+    border-left: 16px solid transparent;
+    width: 0;
+    height: 0;
+    left: 8px;
+    top: 1px;
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 10%;
+}
+
+.reviewBtn {
+    color: #7a8288;
+    border:1px solid #52575c;
+    background: transparent;
+    outline: none;
+    margin-left: 3px
+}
+
+.reviewBtn:hover {
+    background: #3a3f44;
+}
