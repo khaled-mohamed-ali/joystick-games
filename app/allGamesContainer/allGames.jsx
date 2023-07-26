@@ -16,7 +16,7 @@ const getGameByCategory = async (urlChanger) => {
 const AllGames = async ({params,urlChanger,pageTitles}) => {
 
     const gamesByCategory = await getGameByCategory(urlChanger);
-    const wantedLength = gamesByCategory.length == 1 ? 1: gamesByCategory.length == 2? 2 : 3;
+    const wantedLength = gamesByCategory.length == 1 ? 0: gamesByCategory.length == 2? 1 : 2;
     const randoms = randomGameIndexes([], gamesByCategory.length, wantedLength );
     const games = randoms.map((random) => gamesByCategory[random]);
 

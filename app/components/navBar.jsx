@@ -16,7 +16,7 @@ const NavBar = (params) => {
     return (
         <div className='w-100 bg-white' style={{position:'sticky',top: '0',zIndex: '10'}}>
             <nav className=" navbar navbar-expand-lg   container">
-                <Link href={"/"}> <img src={"./Daco_4090777.png"} className={navBarStyle.logo}/></Link>
+                <Link href={"/"}> <img src={"./Game-Controller-Transparent.png"} className={navBarStyle.logo}/></Link>
                 <div className="container-fluid ">
                     <Link style={{color:'#CE3226'}} className="fw-bolder fs-2 navbar-brand" href="/">JOYSTICK</Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -72,7 +72,7 @@ const NavBar = (params) => {
                             </li>
                         </ul>
                         <ul style={{width:'150px'}} className="list-unstyled d-flex justify-content-between fs-5 ">
-                             <li><div><BiSearchAlt2/></div></li>
+                             <li><Link href='/search'><BiSearchAlt2/></Link></li>
                             <li><div><GrGamepad/></div></li>
                             <li><Link href='#'>login</Link></li>
                         </ul>

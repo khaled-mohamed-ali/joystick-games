@@ -210,6 +210,14 @@ a {
   }
 }
 
+.newLineWrap {
+  white-space:pre-wrap;
+}
+
+.webMinimumSpecs {
+  height: 162px;
+  overflow: hidden;
+}
 
 
 

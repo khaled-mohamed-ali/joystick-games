@@ -6,8 +6,8 @@ import RecentlyAdded from "@/app/components/RecentlyAdded";
 import {cache} from 'react'
 import RecentlyAndMostPlayed from './components/recentlyAndMostPlayed'
 import CommunityRecommendations from "@/app/components/CommunityRecommendations";
-import Footer from "@/app/components/Footer";
-import {useSelector} from "react-redux";
+import {FaRobot} from "react-icons/fa";
+
 
 
 export const metadata = {

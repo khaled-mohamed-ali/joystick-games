@@ -19,6 +19,7 @@ const CommunityRecommendations = async () => {
                         CommunityRecommend.map((game) => {
                             return (
                                 <div className='col-6'>
+                                    {console.log(game,'games')}
                                     <div style={
                                         {
                                             background: '#1c1e22',

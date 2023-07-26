@@ -8,10 +8,9 @@ const MinimumSystemRequirements = ({minimum_system_requirements, platform, descr
 
             <hr/>
             <div className="row">
-
                 {platform == "Web Browser"
                     ?
-                        <p className="webMinimumSpecs text-justify newLineWrap  text-">{description}</p>
+                        <p className="webMinimumSpecs text-justify newLineWrap">{description}</p>
                     :
                     <>
                         <div className="col-6 mediamFontSize">

@@ -9,6 +9,7 @@ import GamesLikeThis from "@/app/components/gamesLikeThis";
 import {Suspense ,lazy} from 'react'
 import GameStatistics from "@/app/components/gameStatistics";
 import Loading from "@/app/components/loading";
+import MinimumSystemRequirements from "@/app/components/MinimumSystemRequirements";
 
 
 export const getItemById = async ({id}) => {
@@ -61,6 +62,7 @@ const Page = async ({params}) => {
                             <RightSideGameDetails {...game}/>
                             <AboutGame {...game}/>
                             <AdditionalInformation {...game}/>
+                            <MinimumSystemRequirements {...game}/>
                             <UserReviews/>
                             <GamesLikeThis {...game}/>
                         </div>

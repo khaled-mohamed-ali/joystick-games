@@ -1,0 +1,22 @@
+#searchInputStyle {
+    width: 40%;
+    padding: 10px 16px;
+    background-color: #1c1e22;
+    border: 1px solid #1c1e22;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+
+}
+
+#searchInputStyle::placeholder {
+    color: #52575C;
+    font-size: 19px;
+}
+
+#searchInputStyle:focus {
+    background-color: #1c1e22;
+    border:1px solid rgba(0,0,0,.6);
+    outline: 0 ;
+    box-shadow: none;
+}

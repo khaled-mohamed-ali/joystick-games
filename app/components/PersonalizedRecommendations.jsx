@@ -1,7 +1,6 @@
 import React from 'react';
 import GameCard from "@/app/components/gameCard";
 import styles from '../style/PersonalizedRecommendations.module.css'
-import background from '../../public/backgroundImg.jpg'
 import {FaRobot} from "react-icons/fa";
 import {getGames} from "@/app/page";
 import Link from "next/link";
