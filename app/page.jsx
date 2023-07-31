@@ -1,12 +1,14 @@
 import styles from './page.module.css'
-import PersonalizedRecommendations from "@/app/components/PersonalizedRecommendations";
-import NavBar from "@/app/components/navBar";
-import ImgSlider from "@/app/components/imgSlider";
-import RecentlyAdded from "@/app/components/RecentlyAdded";
+import PersonalizedRecommendations from "@/app/components/serverComponents/PersonalizedRecommendations";
+import NavBar from "@/app/components/clientComponents/navBar";
+import ImgSlider from "@/app/components/clientComponents/imgSlider";
+import RecentlyAdded from "@/app/components/serverComponents/RecentlyAdded";
 import {cache} from 'react'
-import RecentlyAndMostPlayed from './components/recentlyAndMostPlayed'
-import CommunityRecommendations from "@/app/components/CommunityRecommendations";
+import RecentlyAndMostPlayed from './components/serverComponents/recentlyAndMostPlayed'
+import CommunityRecommendations from "@/app/components/serverComponents/CommunityRecommendations";
 import {FaRobot} from "react-icons/fa";
+import {Suspense} from "react";
+import Loading from "@/app/components/serverComponents/loading";
 
 
 
@@ -38,9 +40,11 @@ export default async function Home() {
 
         <main className="mainPageContainer">
             <ImgSlider/>
-            <PersonalizedRecommendations/>
-            <RecentlyAndMostPlayed/>
-            <CommunityRecommendations/>
+            <Suspense fallback={<Loading/>}>
+                <PersonalizedRecommendations/>
+                <RecentlyAndMostPlayed/>
+                <CommunityRecommendations/>
+            </Suspense>
         </main>
     )
 }
