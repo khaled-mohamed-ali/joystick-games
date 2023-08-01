@@ -52,14 +52,14 @@ const GameStatistics = ({title}) => {
             <div className='row justify-content-between mt-5'>
                 <div className='col-7 align-items-center'><h5 className='fontSize2'>What do you think
                     about {title}?</h5></div>
-                <div className='col-5 w-25 d-flex justify-content-end text-end ' style={{color: '#7a8288'}}>
-                    <div className="col-3 fs-5 w-50">
+                <div className='col-5 d-flex  justify-content-sm-between justify-content-sm-end text-end ' style={{color: '#7a8288'}}>
+                    <div className="col-3 fs-5 ">
                         <BsFillEmojiSmileFill/>
                     </div>
-                    <div className="col-3 fs-4 w-50">
+                    <div className="col-3 fs-4 ">
                         <HiEmojiHappy/>
                     </div>
-                    <div className="col-3 fs-5 w-50">
+                    <div className="col-3 fs-5 ">
                         <BsEmojiFrownFill/>
                     </div>
                 </div>

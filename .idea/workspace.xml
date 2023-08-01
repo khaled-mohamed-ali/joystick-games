@@ -2,60 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb25ee96-01fb-48db-9095-3d5136497af2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/[id]/gameByIdStyle.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/clientComponents/gameCardInfintiScroll.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/style/RecentlyAndMostPlayed.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/[id]/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/[id]/page.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/allGamesContainer/allGames.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/allGamesContainer/allGames.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/browser/[[...slug]]/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/browser/[[...slug]]/page.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/AdditionalInformation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/serverComponents/AdditionalInformation.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/CommunityRecommendations.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/serverComponents/CommunityRecommendations.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/clientComponents/Footer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/MinimumSystemRequirements.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/serverComponents/MinimumSystemRequirements.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/MostPlayed.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/serverComponents/MostPlayed.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/PersonalizedRecommendations.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/serverComponents/PersonalizedRecommendations.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/RecentlyAdded.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/serverComponents/RecentlyAdded.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/aboutGame.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/clientComponents/aboutGame.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/clientServerComponents/ProgresBarContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/clientComponents/ProgresBarContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/clientServerComponents/UserReviews.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/clientComponents/UserReviews.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/clientServerComponents/searchPart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/clientComponents/searchPart.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/gameCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/serverComponents/gameCard.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/gameCardByCategory.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/serverComponents/gameCardByCategory.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/gameStatistics.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/serverComponents/gameStatistics.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/gamesLikeThis.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/serverComponents/gamesLikeThis.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/imgSlider.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/clientComponents/imgSlider.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/leftSideGameCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/clientComponents/leftSideGameCard.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/loading.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/serverComponents/loading.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/navBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/clientComponents/navBar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/recentlyAndMostPlayed.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/serverComponents/recentlyAndMostPlayed.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/rightSideGameDetails.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/clientComponents/rightSideGameDetails.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/games/[[...slug]]/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/games/[[...slug]]/page.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/search/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/search/page.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/search/searchStyle.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/search/searchStyle.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/style/PersonalizedRecommendations.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/style/PersonalizedRecommendations.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/style/gameCardStyle.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/style/gameCardStyle.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/style/gameDetailsStyle.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/style/gameDetailsStyle.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/style/navBar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/style/navBar.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/Daco_4090777.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/backgroundImg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/banner1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/banner1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/banner3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/banner3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/callofduty.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/controller.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/duty2.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/jos.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/josystick2.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/joystick.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/next.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vercel.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/xs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/serverComponents/gameStatistics.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/serverComponents/gameStatistics.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +88,7 @@
       <workItem from="1690053913198" duration="53903000" />
       <workItem from="1690275058083" duration="54654000" />
       <workItem from="1690511602784" duration="20510000" />
-      <workItem from="1690669746022" duration="55549000" />
+      <workItem from="1690669746022" duration="56462000" />
     </task>
     <servers />
   </component>

@@ -46,8 +46,7 @@ const Page = async ({params}) => {
                 }}/>
             </div>
 
-            <div className='container' style={{
-                position: "relative",
+            <div className='container position-relative' style={{
                 zIndex: '3',
                 // minHeight: "1900px"
             }}>
