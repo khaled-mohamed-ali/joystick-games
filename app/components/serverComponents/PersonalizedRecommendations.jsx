@@ -1,9 +1,10 @@
 import React from 'react';
-import GameCard from "@/app/components/gameCard";
-import styles from '../style/PersonalizedRecommendations.module.css'
+import GameCard from "@/app/components/serverComponents/gameCard";
+import styles from '../../style/PersonalizedRecommendations.module.css'
 import {FaRobot} from "react-icons/fa";
 import {getGames} from "@/app/page";
 import Link from "next/link";
+
 
 
 export function randomGameIndexes(arr, maxLength, wantedLength) {
@@ -30,11 +31,11 @@ const PersonalizedRecommendations = async () => {
 
     return (
         <div className={`${styles.mainGameContainer} container mb-5`}>
-            <h2 className={styles.sectionTitle}><FaRobot/>   &nbsp; Personalized Recommendations</h2>
+            <h2 className={` fontSize1 pb-3`}><FaRobot/>   &nbsp; Personalized Recommendations</h2>
             <div className="row">
                 {allGames.map((game, index) => {
                     return (
-                        <div className={` gx-4 col-4 `} key={index}>
+                        <div className={`gx-4 col-md-4 col-sm-12`} key={index}>
                             <GameCard {...game}/>
                         </div>
                     )

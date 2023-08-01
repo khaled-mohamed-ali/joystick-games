@@ -4,9 +4,21 @@
 
 }
 
-.sectionTitle {
-    color: rgb(170, 170, 170);
-    padding:0px 0px 40px 0px;
-    display: flex;
-    align-items: center;
+/*.sectionTitle {*/
+/*    !*color: rgb(170, 170, 170);*!*/
+/*    padding:0px 0px 40px 0px;*/
+/*    !*display: flex;*!*/
+/*    !*align-items: center;*!*/
+/*}*/
+
+@media only screen and (max-width: 576px) {
+    .sectionTitle {
+        font-size: 17px;
+    }
 }
+
+/*@media only screen and (max-width: 400px) {*/
+/*    .sectionTitle {*/
+/*        font-size: 17px;*/
+/*    }*/
+/*}*/

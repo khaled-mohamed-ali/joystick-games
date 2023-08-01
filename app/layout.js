@@ -2,9 +2,12 @@ import 'bootstrap/dist/css/bootstrap.css'
 import './globals.css'
 import Head from "next/head"
 import {Inter} from 'next/font/google'
-import NavBar from "@/app/components/navBar";
+import NavBar from "@/app/components/clientComponents/navBar";
 import ReduxProvider from "@/store/reduxPorvider";
-import Footer from "@/app/components/Footer";
+import Footer from "@/app/components/clientComponents/Footer";
+import {Suspense, lazy} from 'react'
+import Loading from "@/app/components/serverComponents/loading";
+
 
 const inter = Inter({subsets: ['latin']})
 
@@ -19,7 +22,7 @@ export default function RootLayout({children}) {
 
         <html lang='en'>
         <Head>
-            <link rel="icon" href="/favicon.png" sizes="any" />
+            <link rel="icon" href="/favicon.png" sizes="any"/>
             <meta name="viewport" content="width=device-width, initial-scale=1"/>
         </Head>
 
@@ -28,7 +31,7 @@ export default function RootLayout({children}) {
         >
         <ReduxProvider>
             <NavBar/>
-            {children}
+                {children}
             <Footer/>
         </ReduxProvider>
         </body>

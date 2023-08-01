@@ -14,6 +14,7 @@
 .plusHover {
     stroke: #1c1e22;
 }
+
 .plusHover:hover {
     fill: white;
 }
@@ -24,18 +25,31 @@
 }
 
 
-
 .gameTitle {
     color: #aaa;
-    font-size: 22px;
     overflow: hidden;
-    height: 30px;
+    height: 25px;
 }
 
 .mainCard:hover {
     transform: scale(1.02);
-    box-shadow: 0 .9rem 1rem rgba(0,0,0,.199)!important;
+    box-shadow: 0 .9rem 1rem rgba(0, 0, 0, .199) !important;
     z-index: 1;
     cursor: pointer;
 }
+
+@media only screen and (max-width: 768px) {
+    .mainCard {
+        margin-bottom: 30px;
+    }
+
+}
+
+@media only screen and (max-width: 850px) {
+    .gameTitle{
+        font-size: 18px;
+    }
+}
+
+
 

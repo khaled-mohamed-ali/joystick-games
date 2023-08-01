@@ -1,5 +1,5 @@
 import React from 'react';
-import GameCard from "@/app/components/gameCard";
+import GameCard from "@/app/components/serverComponents/gameCard";
 
 const GamesLikeThis = async ({genre, title}) => {
     const gamesLike = await fetch(
@@ -21,7 +21,7 @@ const GamesLikeThis = async ({genre, title}) => {
                     <div className="row">
                         {gamesData.map(game => {
                             return (
-                                <div className="col-4 gx-3">
+                                <div className="col-12 col-md-4 gx-3">
                                     <GameCard {...game}/>
                                 </div>
                             )

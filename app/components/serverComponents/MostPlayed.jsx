@@ -1,5 +1,5 @@
 import React from 'react';
-import {getGames} from '../page'
+import {getGames} from '../../page'
 import {randomGameIndexes} from './PersonalizedRecommendations'
 import Link from "next/link";
 

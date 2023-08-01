@@ -11,25 +11,29 @@ export default function imgSlider() {
 
     useEffect(()=> {
         let element = document.getElementById("manualNext");
-        setInterval(()=> {
+        const fireSlider = setInterval(()=> {
             element.click()
-        },5000)
+        },10000)
+        // return clearInterval(fireSlider);
     },[])
 
+
+
+
     return (
-        <div style={{height: '500px',overflow:'hidden',opacity:'0.4',border : '1px solid rgba(0, 0, 0, 0.6)'}}>
+        <div className={""} style={{maxHeight: '470px',overflow:'hidden',opacity:'0.4',border : '1px solid rgba(0, 0, 0, 0.6)'}}>
             <div id="carouselExampleDark" className="carousel carousel-dark slide" data-bs-ride="carousel">
                 <div className={`carousel-inner`}>
                     <div className="carousel-item active" data-bs-interval="">
-                        <img style={{height:"500px"}} src='banner2.webp' className="d-block w-100 " alt="..."/>
+                        <img style={{height:"100%"}} src='banner2.webp' className="d-block w-100 " alt="..."/>
                             <div className="carousel-caption d-none d-md-block">
                             </div>
                     </div>
                     <div className="carousel-item" data-bs-interval="">
-                        <img style={{height:"500px"}} src="banner1.jpg" className="d-block w-100 " alt="..."/>
+                        <img style={{height:"100%"}} src="banner1.jpg" className="d-block w-100 " alt="..."/>
                     </div>
                     <div className="carousel-item" data-bs-interval="">
-                        <img style={{height:"500px"}} src="banner3.jpg" className="d-block w-100 " alt="..."/>
+                        <img style={{height:"100%"}} src="banner3.jpg" className="d-block w-100 " alt="..."/>
                     </div>
                 </div>
                 <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
@@ -44,30 +48,6 @@ export default function imgSlider() {
                     <span className="visually-hidden">Next</span>
                 </button>
             </div>
-
-
-
-
-        {/*<MDBCarousel className='h-25'>*/}
-        {/*    <MDBCarouselItem*/}
-        {/*        className='w-100 h-25 d-block'*/}
-        {/*        itemId={1}*/}
-        {/*        src='banner1.jpg'*/}
-        {/*        alt='...'*/}
-        {/*    />*/}
-        {/*    <MDBCarouselItem*/}
-        {/*        className='w-100 h-25 d-block'*/}
-        {/*        itemId={2}*/}
-        {/*        src='banner2.webp'*/}
-        {/*        alt='...'*/}
-        {/*    />*/}
-        {/*    <MDBCarouselItem*/}
-        {/*        className='w-100 h-25 d-block'*/}
-        {/*        itemId={3}*/}
-        {/*        src='banner3.jpg'*/}
-        {/*        alt='...'*/}
-        {/*    />*/}
-        {/*</MDBCarousel>*/}
         </div>
     );
 }

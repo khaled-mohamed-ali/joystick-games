@@ -4,14 +4,14 @@ import {FaCrown, FaLongArrowAltUp, FaUserAlt} from "react-icons/fa";
 import {BiMessage} from "react-icons/bi";
 import {BsEmojiFrownFill, BsFillEmojiSmileFill} from "react-icons/bs";
 import {HiEmojiHappy} from "react-icons/hi";
-import ProgresBarContainer from "@/app/components/clientServerComponents/ProgresBarContainer";
+import ProgresBarContainer from "@/app/components/clientComponents/ProgresBarContainer";
 
 const GameStatistics = ({title}) => {
     let value = Math.floor(Math.random() * (100 - 80) + 70);
     return (
-        <div className='row' style={{color: '#aaa',height:'350px'}}>
-            <div className="col-8 mt-4 d-flex flex-column justify-content-around">
-                <h3>{title}</h3>
+        <div className='row' style={{color: '#aaa'}}>
+            <div className="col-md-8 col-12 mt-4 d-flex flex-column justify-content-around">
+                <h3 className="fontSize1">{title}</h3>
                 <div>{value > 90 ?
                     <div>
                         <AiFillStar/>
@@ -43,15 +43,15 @@ const GameStatistics = ({title}) => {
                 </div>
 
             </div>
-            <div className="col-4 ps-2  pe-0 d-flex justify-content-start align-items-end">
+            <div
+                className="col-md-4 col-12 p-md-2  pe-md-0 p-4 d-flex justify-content-start   justify-content-center align-items-end">
                 <div className='' style={{width: '150px', height: '150px'}}>
                     <ProgresBarContainer progressPercent={value}/>
                 </div>
             </div>
-
-
-            <div className='row justify-content-between mt-5' style={{height: '20px'}}>
-                <div className='col-7 '><h5>What do you think about {title}?</h5></div>
+            <div className='row justify-content-between mt-5'>
+                <div className='col-7 align-items-center'><h5 className='fontSize2'>What do you think
+                    about {title}?</h5></div>
                 <div className='col-5 w-25 d-flex justify-content-end text-end ' style={{color: '#7a8288'}}>
                     <div className="col-3 fs-5 w-50">
                         <BsFillEmojiSmileFill/>

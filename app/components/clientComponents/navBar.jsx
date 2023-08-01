@@ -3,7 +3,7 @@ import React from 'react';
 import Link from "next/link";
 import {BiSearchAlt2} from 'react-icons/bi'
 import {GrGamepad} from 'react-icons/gr'
-import navBarStyle from '../style/navBar.module.css'
+import navBarStyle from '../../style/navBar.module.css'
 import {useEffect} from "react";
 import {usePathname} from "next/navigation";
 
@@ -14,11 +14,11 @@ const NavBar = (params) => {
 
 
     return (
-        <div className='w-100 bg-white' style={{position:'sticky',top: '0',zIndex: '10'}}>
+        <div id={`${navBarStyle.mainNavContainer}`} className={`w-100 bg-white`}>
             <nav className=" navbar navbar-expand-lg   container">
-                <Link href={"/"}> <img src={"./Game-Controller-Transparent.png"} className={navBarStyle.logo}/></Link>
                 <div className="container-fluid ">
-                    <Link style={{color:'#CE3226'}} className="fw-bolder fs-2 navbar-brand" href="/">JOYSTICK</Link>
+                    <Link style={{color:'#CE3226'}} className="fw-bolder fs-2 navbar-brand" href="/">
+                        <img src={"./Game-Controller-Transparent.png"} className={navBarStyle.logo}/> JOYSTICK</Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
                             aria-label="Toggle navigation">
@@ -27,11 +27,11 @@ const NavBar = (params) => {
                     <div className="collapse navbar-collapse justify-content-between" id="navbarNavDropdown">
                         <ul  className="navbar-nav">
                             <li className="nav-item dropdown">
-                                <Link className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                   aria-expanded="false">
+                                <Link id={`${navBarStyle.freeGames}`} className={`fs-6 fw-bold  nav-link dropdown-toggle`} href="@/app/components/clientComponents/navBar#" role="button" data-bs-toggle="dropdown"
+                                      aria-expanded="false">
                                     free games
                                 </Link>
-                                <ul className="dropdown-menu">
+                                <ul className="dropdown-menu" id={`${navBarStyle.freeGames}`}>
                                     <li><Link className="dropdown-item" href={`/games/MMORPG`}>MMORPG</Link></li>
                                     <li><Link className="dropdown-item" href={`/games/shooter`}>Shooter</Link></li>
                                     <li><Link className="dropdown-item" href={`/games/MOBA`}>MOBA</Link></li>
@@ -48,11 +48,11 @@ const NavBar = (params) => {
                                 </ul>
                             </li>
                             <li className="nav-item dropdown">
-                                <Link className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                   aria-expanded="false">
+                                <Link id={`${navBarStyle.browserGames}`} className="fs-6 fw-bold nav-link dropdown-toggle" href="@/app/components/clientComponents/navBar#" role="button" data-bs-toggle="dropdown"
+                                      aria-expanded="false">
                                     browser games
                                 </Link>
-                                <ul className="dropdown-menu">
+                                <ul className="dropdown-menu" id={`${navBarStyle.browserGames}`}>
                                     <li><Link className="dropdown-item" href={`/browser/MMORPG`}>MMORPG</Link></li>
                                     <li><Link className="dropdown-item" href={`/browser/shooter`}>Shooter</Link></li>
                                     <li><Link className="dropdown-item" href={`/browser/Anime`}>Anime</Link></li>
@@ -67,14 +67,14 @@ const NavBar = (params) => {
 
                                 </ul>
                             </li>
-                            <li className="nav-item">
-                                <Link className="nav-link" href="#">Pricing</Link>
-                            </li>
+                            {/*<li className="nav-item">*/}
+                            {/*    <Link className="nav-link" href="#">Pricing</Link>*/}
+                            {/*</li>*/}
                         </ul>
                         <ul style={{width:'150px'}} className="list-unstyled d-flex justify-content-between fs-5 ">
-                             <li><Link href='/search'><BiSearchAlt2/></Link></li>
-                            <li><div><GrGamepad/></div></li>
-                            <li><Link href='#'>login</Link></li>
+                            {/*<li><div><GrGamepad/></div></li>*/}
+                            <li className="mt-4"><Link id={navBarStyle.searchIcon} className="fs-4 fw-bolder" href='/search'><BiSearchAlt2/></Link></li>
+                            {/*<li><Link href='#'>login</Link></li>*/}
                         </ul>
                     </div>
                 </div>

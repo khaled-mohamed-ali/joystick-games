@@ -10,10 +10,10 @@ const MinimumSystemRequirements = ({minimum_system_requirements, platform, descr
             <div className="row">
                 {platform == "Web Browser"
                     ?
-                        <p className="webMinimumSpecs text-justify newLineWrap">{description}</p>
+                    <p className="webMinimumSpecs text-justify newLineWrap">{description}</p>
                     :
                     <>
-                        <div className="col-6 mediamFontSize">
+                        <div className="col-12 col-md-6 fontSize3">
                             <div className=" discrepColor">
                                 OS
                                 <p className="mainColor">{minimum_system_requirements.os}</p>
@@ -27,7 +27,7 @@ const MinimumSystemRequirements = ({minimum_system_requirements, platform, descr
                                 <p className="mainColor">{minimum_system_requirements.storage}</p>
                             </div>
                         </div>
-                        <div className="col-6 mediamFontSize">
+                        <div className="col-12 col-md-6 fontSize3">
                             <div className=" discrepColor">
                                 Processor
                                 <p className="mainColor">{minimum_system_requirements.processor}</p>

@@ -45,21 +45,20 @@ const AboutGame = () => {
                     ipsa modi molestias necessitatibus nobis quae quas quidem tempore. Asperiores.
                 </div>
             </div>
-            <p>
+            <div>
 
                 <button  onClick={() => setIsTrue(!isTrue)}   className="btn border-0 text-white p-0 mt-3" value='test' data-bs-toggle="collapse" href="#collapseExample" role="button"
                    aria-expanded="false" aria-controls="collapseExample">
                     {isTrue? '+  Read more': '- Read Less'}
                 </button>
                 <hr/>
-
-                <p className="discrepColor smallFontSize fst-italic">
+                <p className="discrepColor fontSize4 fst-italic">
                     Disclosure: FreeToGame works closely with publishers and developers to offer a free and rewarding experience. In order to keep
                     everything free to use we may sometimes earn a small commission from some partners. Find more info in our
                     <span className='fs-7 text-white'> FAQ</span> page.
                 </p>
 
-            </p>
+            </div>
 
             <p>
                 {str.split(/((?:\w+ ){5})/g).filter(Boolean).join(<br/>)}
