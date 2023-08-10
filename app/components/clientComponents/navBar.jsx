@@ -17,8 +17,10 @@ const NavBar = (params) => {
         <div id={`${navBarStyle.mainNavContainer}`} className={`w-100 bg-white`}>
             <nav className=" navbar navbar-expand-lg  container p-0">
                 <div className="container-fluid ">
-                    <Link style={{color:'#CE3226'}} className="fw-bolder fs-2 navbar-brand" href="/">
-                        <img src={"./Game-Controller-Transparent.png"} className={navBarStyle.logo}/> JOYSTICK</Link>
+                    <Link style={{color:'#CE3226'}} className="fw-bolder fs-3 navbar-brand" href="/">
+                        <img src={"./Game-Controller-Transparent.png"} className={navBarStyle.logo}/>
+                        JOYSTICK
+                    </Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
                             aria-label="Toggle navigation">
@@ -67,7 +69,7 @@ const NavBar = (params) => {
                                 </ul>
                             </li>
                         </ul>
-                        <ul style={{width:'150px'}} className="list-unstyled d-flex justify-content-between fs-5 m-0">
+                        <ul style={{width:'150px'}} className="list-unstyled d-flex justify-content-md-end  fs-5 m-0">
                             <li className="mt-0"><Link id={navBarStyle.searchIcon} className="fs-4 fw-bolder" href='/search'><BiSearchAlt2/></Link></li>
                         </ul>
                     </div>
