@@ -23,8 +23,7 @@ const AllGames = async ({params, urlChanger, pageTitles}) => {
     const randoms = randomGameIndexes([], gamesByCategory.length, wantedLength);
     const games = randoms.map((random) => gamesByCategory[random]);
 
-    const infinteScrol = gamesByCategory.slice(0,12);
-    (infinteScrol.length,'infinte')
+
 
 
     return (
@@ -50,9 +49,15 @@ const AllGames = async ({params, urlChanger, pageTitles}) => {
                             )
                         })}
                     </div>
-                    <GameCardInfiniteScroll gamesByCategory={gamesByCategory}>
-                        <GameCardByCategory/>
-                    </GameCardInfiniteScroll>
+                    <div className="row">
+                        {gamesByCategory.map((game,index) => {
+                            return (
+                                <div className="col-12 col-md-4 col-xl-3 gx-4 mt-4" key={index}>
+                                    <GameCardByCategory {...game} />
+                                </div>
+                            )
+                        })}
+                    </div>
                 </Suspense>
 
             </div>

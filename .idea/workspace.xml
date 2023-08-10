@@ -4,15 +4,8 @@
     <list default="true" id="cb25ee96-01fb-48db-9095-3d5136497af2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/allGamesContainer/allGames.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/allGamesContainer/allGames.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/clientComponents/UserReviews.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/clientComponents/UserReviews.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/components/clientComponents/gameCardInfintiScroll.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/clientComponents/gameCardInfintiScroll.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/clientComponents/navBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/clientComponents/navBar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/clientComponents/searchPart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/clientComponents/searchPart.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/serverComponents/AdditionalInformation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/serverComponents/AdditionalInformation.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/serverComponents/CommunityRecommendations.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/serverComponents/CommunityRecommendations.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/serverComponents/gamesLikeThis.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/serverComponents/gamesLikeThis.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/serverComponents/recentlyAndMostPlayed.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/serverComponents/recentlyAndMostPlayed.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/serverComponents/RecentlyAdded.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/serverComponents/RecentlyAdded.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +93,7 @@
       <workItem from="1690997398518" duration="950000" />
       <workItem from="1691162745460" duration="611000" />
       <workItem from="1691611232067" duration="388000" />
-      <workItem from="1691611862906" duration="4467000" />
+      <workItem from="1691611862906" duration="6513000" />
     </task>
     <servers />
   </component>

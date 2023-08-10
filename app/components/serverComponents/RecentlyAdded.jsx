@@ -17,10 +17,9 @@ const RecentlyAdded = async () => {
 
     return (
         <div>
-            {lastedGamesAdded.map(({thumbnail, title, genre, short_description, id, platform}) => {
-
+            {lastedGamesAdded.map(({thumbnail, title, genre, short_description, id, platform},index) => {
                 return (
-                    <Link href={`/${id}`}>
+                    <Link href={`/${id}`} key={index}>
                         <div className='row   mainCard mx-0  rounded mb-4 justify-content-between '
                              style={{maxHeight: '115px'}}
                         >
