@@ -19,9 +19,9 @@ const GamesLikeThis = async ({genre, title}) => {
                     <h4 className="mainColor">Games like {title} </h4>
                     <hr className="mainColor"/>
                     <div className="row">
-                        {gamesData.map(game => {
+                        {gamesData.map((game,index) => {
                             return (
-                                <div className="col-12 col-md-4 gx-3">
+                                <div className="col-12 col-md-4 gx-3" key={index}>
                                     <GameCard {...game}/>
                                 </div>
                             )

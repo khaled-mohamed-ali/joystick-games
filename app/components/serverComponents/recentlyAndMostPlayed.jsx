@@ -24,9 +24,9 @@ const RecentlyAndMostPlayed = async () => {
                 </div>
                 <div className="col-md-4 col-xs-12">
                     <h3 className={` fontSize2  mb-3 p-0`}>Most Played Today</h3>
-                    {mostPlayed.map(game => {
+                    {mostPlayed.map((game,index)=> {
                         return (
-                        <MostPlayed {...game}/>
+                        <MostPlayed {...game} key={index}/>
                         )
                     })}
                 </div>

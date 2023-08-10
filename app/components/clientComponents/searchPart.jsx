@@ -44,9 +44,9 @@ const SearchPart = (props) => {
             </div>
 
             <div className="row">
-                {filterdGames.map(game => {
+                {filterdGames.map((game,index) => {
                     return (
-                        <div className="col-xl-3 col-md-4 col-12 mb-4">
+                        <div className="col-xl-3 col-md-4 col-12 mb-4" key={index}>
                             <GameCardByCategory {...game}/>
                         </div>
                     )

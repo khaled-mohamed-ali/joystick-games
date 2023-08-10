@@ -15,7 +15,7 @@ const UserReviews = () => {
                     <hr className='mainColor'/>
                     {reviews.map((review, index) => {
                         return (
-                            <div className="gap-2 ps-0 d-flex mt-4 justify-content-between">
+                            <div className="gap-2 ps-0 d-flex mt-4 justify-content-between" key={index}>
                                 <div className="col-2  col-xl-1   ps-0">
                                     <img src='complain.png' alt="" style={{width: '60px', height: '60px'}}/>
                                 </div>

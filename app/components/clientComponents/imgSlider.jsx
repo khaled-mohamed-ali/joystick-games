@@ -6,7 +6,7 @@ import {
 } from 'mdb-react-ui-kit';
 
 
-export default function imgSlider() {
+export default function ImgSlider() {
 
 
     useEffect(()=> {
@@ -16,9 +16,6 @@ export default function imgSlider() {
         },10000)
         // return clearInterval(fireSlider);
     },[])
-
-
-
 
     return (
         <div className={""} style={{maxHeight: '470px',overflow:'hidden',opacity:'0.4',border : '1px solid rgba(0, 0, 0, 0.6)'}}>

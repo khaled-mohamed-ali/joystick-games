@@ -42,9 +42,9 @@ const AdditionalInformation = ({title, developer, publisher, release_date, genre
                 <div className="row mt-4 p-2 gx-3">
                     <div className="col-12"><h4 className="p-0">{title} Screenshots</h4></div>
                     <hr/>
-                    {screenshots.map(({image}) => {
+                    {screenshots.map(({image},index) => {
                         return (
-                            <div className={`col-6 p-sm-1 p-2 ${screenshots.length >= 4 ? " col-md-3 " : " col-md-4"}`}>
+                            <div className={`col-6 p-sm-1 p-2 ${screenshots.length >= 4 ? " col-md-3 " : " col-md-4"}`} key={index}>
                                 <img className='productImg' src={image} alt=""/>
                             </div>
                         )

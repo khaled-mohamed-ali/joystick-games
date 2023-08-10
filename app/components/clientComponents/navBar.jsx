@@ -27,7 +27,7 @@ const NavBar = (params) => {
                     <div className="collapse navbar-collapse justify-content-between" id="navbarNavDropdown">
                         <ul  className="navbar-nav">
                             <li className="nav-item dropdown">
-                                <Link id={`${navBarStyle.freeGames}`} className={`fs-6 fw-bold  nav-link dropdown-toggle`} href="@/app/components/clientComponents/navBar#" role="button" data-bs-toggle="dropdown"
+                                <Link id={`${navBarStyle.freeGames}`} className={`fs-6 fw-bold  nav-link dropdown-toggle`} href="" role="button" data-bs-toggle="dropdown"
                                       aria-expanded="false">
                                     free games
                                 </Link>
@@ -48,7 +48,7 @@ const NavBar = (params) => {
                                 </ul>
                             </li>
                             <li className="nav-item dropdown">
-                                <Link id={`${navBarStyle.browserGames}`} className="fs-6 fw-bold nav-link dropdown-toggle" href="@/app/components/clientComponents/navBar#" role="button" data-bs-toggle="dropdown"
+                                <Link id={`${navBarStyle.browserGames}`} className="fs-6 fw-bold nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown"
                                       aria-expanded="false">
                                     browser games
                                 </Link>

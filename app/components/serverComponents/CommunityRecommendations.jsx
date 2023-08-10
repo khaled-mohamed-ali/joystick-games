@@ -16,9 +16,9 @@ const CommunityRecommendations = async () => {
                 <h3 className='fontSize2 mb-3 p-0'>Community Recommendations</h3>
                 < div className='row'>
                     {
-                        CommunityRecommend.map((game) => {
+                        CommunityRecommend.map((game,index) => {
                             return (
-                                <div className='col-md-6 col-xs-12 '>
+                                <div className='col-md-6 col-xs-12' key={index}>
                                     <div style={
                                         {
                                             background: '#1c1e22',

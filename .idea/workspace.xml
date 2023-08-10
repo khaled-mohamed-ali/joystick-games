@@ -3,8 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="cb25ee96-01fb-48db-9095-3d5136497af2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/[id]/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/[id]/page.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/serverComponents/gameStatistics.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/serverComponents/gameStatistics.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/allGamesContainer/allGames.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/allGamesContainer/allGames.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/clientComponents/UserReviews.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/clientComponents/UserReviews.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/clientComponents/gameCardInfintiScroll.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/clientComponents/gameCardInfintiScroll.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/clientComponents/navBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/clientComponents/navBar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/clientComponents/searchPart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/clientComponents/searchPart.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/serverComponents/AdditionalInformation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/serverComponents/AdditionalInformation.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/serverComponents/CommunityRecommendations.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/serverComponents/CommunityRecommendations.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/serverComponents/gamesLikeThis.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/serverComponents/gamesLikeThis.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/serverComponents/recentlyAndMostPlayed.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/serverComponents/recentlyAndMostPlayed.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,21 +34,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/JOYSTICK/public",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "terminal",
-    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2022.1.3\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/JOYSTICK/public&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2022.1.3\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\next-app\app" />
@@ -88,7 +96,11 @@
       <workItem from="1690053913198" duration="53903000" />
       <workItem from="1690275058083" duration="54654000" />
       <workItem from="1690511602784" duration="20510000" />
-      <workItem from="1690669746022" duration="56462000" />
+      <workItem from="1690669746022" duration="58027000" />
+      <workItem from="1690997398518" duration="950000" />
+      <workItem from="1691162745460" duration="611000" />
+      <workItem from="1691611232067" duration="388000" />
+      <workItem from="1691611862906" duration="4467000" />
     </task>
     <servers />
   </component>

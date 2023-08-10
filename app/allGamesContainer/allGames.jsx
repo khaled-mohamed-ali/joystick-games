@@ -42,9 +42,9 @@ const AllGames = async ({params, urlChanger, pageTitles}) => {
                 </p>
                 <Suspense fallback={<Loading/>}>
                     <div className="row pt-3">
-                        {games.map(game => {
+                        {games.map((game,index) => {
                             return (
-                                <div className="col-12 col-md-4">
+                                <div className="col-12 col-md-4" key={index}>
                                     <MostPlayed {...game}/>
                                 </div>
                             )
