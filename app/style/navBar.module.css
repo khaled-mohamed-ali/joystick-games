@@ -1,6 +1,6 @@
 .logo {
-    width: 100px;
-    height: 75px;
+    width: 80px;
+    height: 65px;
     border-radius: 50%;
     rotate: 340deg;
     margin-top: 10px;
@@ -33,7 +33,6 @@
 
 #searchIcon {
     color: #272B30;
-
 }
 
 @media only screen and (max-width: 576px) {

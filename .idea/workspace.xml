@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="cb25ee96-01fb-48db-9095-3d5136497af2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/allGamesContainer/allGames.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/allGamesContainer/allGames.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/clientComponents/gameCardInfintiScroll.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/clientComponents/gameCardInfintiScroll.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/serverComponents/RecentlyAdded.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/serverComponents/RecentlyAdded.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/clientComponents/navBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/clientComponents/navBar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/style/navBar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/style/navBar.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +92,9 @@
       <workItem from="1690997398518" duration="950000" />
       <workItem from="1691162745460" duration="611000" />
       <workItem from="1691611232067" duration="388000" />
-      <workItem from="1691611862906" duration="6513000" />
+      <workItem from="1691611862906" duration="8269000" />
+      <workItem from="1691681655370" duration="1141000" />
+      <workItem from="1691683815569" duration="1670000" />
     </task>
     <servers />
   </component>

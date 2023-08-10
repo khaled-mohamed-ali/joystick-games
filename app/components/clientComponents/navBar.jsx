@@ -15,7 +15,7 @@ const NavBar = (params) => {
 
     return (
         <div id={`${navBarStyle.mainNavContainer}`} className={`w-100 bg-white`}>
-            <nav className=" navbar navbar-expand-lg   container">
+            <nav className=" navbar navbar-expand-lg  container p-0">
                 <div className="container-fluid ">
                     <Link style={{color:'#CE3226'}} className="fw-bolder fs-2 navbar-brand" href="/">
                         <img src={"./Game-Controller-Transparent.png"} className={navBarStyle.logo}/> JOYSTICK</Link>
@@ -64,17 +64,11 @@ const NavBar = (params) => {
                                     <li><Link className="dropdown-item" href={`/browser/sports`}>sports</Link></li>
                                     <hr className=""/>
                                     <li><Link className="dropdown-item" href={`/browser`}>browser Games</Link></li>
-
                                 </ul>
                             </li>
-                            {/*<li className="nav-item">*/}
-                            {/*    <Link className="nav-link" href="#">Pricing</Link>*/}
-                            {/*</li>*/}
                         </ul>
-                        <ul style={{width:'150px'}} className="list-unstyled d-flex justify-content-between fs-5 ">
-                            {/*<li><div><GrGamepad/></div></li>*/}
-                            <li className="mt-4"><Link id={navBarStyle.searchIcon} className="fs-4 fw-bolder" href='/search'><BiSearchAlt2/></Link></li>
-                            {/*<li><Link href='#'>login</Link></li>*/}
+                        <ul style={{width:'150px'}} className="list-unstyled d-flex justify-content-between fs-5 m-0">
+                            <li className="mt-0"><Link id={navBarStyle.searchIcon} className="fs-4 fw-bolder" href='/search'><BiSearchAlt2/></Link></li>
                         </ul>
                     </div>
                 </div>
