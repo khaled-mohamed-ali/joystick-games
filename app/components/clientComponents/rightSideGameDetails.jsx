@@ -28,7 +28,7 @@ const RightSideGameDetails = ({title}) => {
 
     return (
         <>
-            <div className='row'>
+            <main className='row'>
                 <div className="col-3 col-sm-2 pe-0 ps-0 ">
                     <img src='complain.png' alt="" style={{width: '60px', height: '60px'}}/>
                 </div>
@@ -47,7 +47,7 @@ const RightSideGameDetails = ({title}) => {
                         <IoIosSend/>
                     </button>
                 </div>
-            </div>
+            </main>
 
 
         </>

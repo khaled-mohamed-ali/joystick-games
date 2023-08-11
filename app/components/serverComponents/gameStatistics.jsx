@@ -1,9 +1,8 @@
 import React from 'react';
 import {AiFillLike, AiFillStar} from "react-icons/ai";
-import {FaCrown, FaLongArrowAltUp, FaUserAlt} from "react-icons/fa";
+import {FaCrown, FaLongArrowAltUp, FaSmileBeam, FaUserAlt} from "react-icons/fa";
 import {BiMessage} from "react-icons/bi";
 import {BsEmojiFrownFill, BsFillEmojiSmileFill} from "react-icons/bs";
-import {BiSolidHappyAlt} from "react-icons/Bi";
 import ProgresBarContainer from "@/app/components/clientComponents/ProgresBarContainer";
 
 const GameStatistics = ({title}) => {
@@ -57,7 +56,7 @@ const GameStatistics = ({title}) => {
                         <BsFillEmojiSmileFill/>
                     </div>
                     <div className="col-3 fs-5 ">
-                        <BiSolidHappyAlt/>
+                        <FaSmileBeam/>
                     </div>
                     <div className="col-3 fs-5 ">
                         <BsEmojiFrownFill/>
