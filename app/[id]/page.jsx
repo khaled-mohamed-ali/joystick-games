@@ -30,7 +30,7 @@ const Page = async ({params}) => {
 
     return (
 
-        <main className={styles.main} >
+        <div  className={styles.main} >
             <div style={{
                 backgroundImage: `url(${game.screenshots && game.screenshots[0]?.image})`,
                 height: '520px',
@@ -69,7 +69,7 @@ const Page = async ({params}) => {
                 </div>
             </div>
             {/*</Suspense>*/}
-        </main>
+        </div>
     );
 };
 

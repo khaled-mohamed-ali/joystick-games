@@ -28,9 +28,9 @@ const RightSideGameDetails = ({title}) => {
 
     return (
         <>
-            <div className='row gx-5 '>
+            <div className='row'>
                 <div className="col-3 col-sm-2 pe-0 ps-0 ">
-                    <img src='complain.png' alt="" style={{width: '70px', height: '70px'}}/>
+                    <img src='complain.png' alt="" style={{width: '60px', height: '60px'}}/>
                 </div>
                 <div className={`col-9 col-sm-10  d-flex ps-0 mb-5 ${gameDetailsStyle.textArContainer}`}>
                     <div className={`${gameDetailsStyle.arrow}`}/>

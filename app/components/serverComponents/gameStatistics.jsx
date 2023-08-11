@@ -3,7 +3,7 @@ import {AiFillLike, AiFillStar} from "react-icons/ai";
 import {FaCrown, FaLongArrowAltUp, FaUserAlt} from "react-icons/fa";
 import {BiMessage} from "react-icons/bi";
 import {BsEmojiFrownFill, BsFillEmojiSmileFill} from "react-icons/bs";
-import {HiEmojiHappy} from "react-icons/hi";
+import {BiSolidHappyAlt} from "react-icons/Bi";
 import ProgresBarContainer from "@/app/components/clientComponents/ProgresBarContainer";
 
 const GameStatistics = ({title}) => {
@@ -56,8 +56,8 @@ const GameStatistics = ({title}) => {
                     <div className="col-3 fs-5 ">
                         <BsFillEmojiSmileFill/>
                     </div>
-                    <div className="col-3 fs-4 ">
-                        <HiEmojiHappy/>
+                    <div className="col-3 fs-5 ">
+                        <BiSolidHappyAlt/>
                     </div>
                     <div className="col-3 fs-5 ">
                         <BsEmojiFrownFill/>
