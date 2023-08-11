@@ -1,5 +1,5 @@
 'use client'
-import React from 'react';
+import React, {useState} from 'react';
 import Link from "next/link";
 import {BiSearchAlt2} from 'react-icons/bi'
 import {GrGamepad} from 'react-icons/gr'
@@ -8,6 +8,7 @@ import {useEffect} from "react";
 import {usePathname} from "next/navigation";
 
 const NavBar = (params) => {
+    const [linkStyle,setLinkStyle] = useState();
     useEffect(() => {
         require("bootstrap/dist/js/bootstrap.bundle.min.js");
     }, []);

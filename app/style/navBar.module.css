@@ -7,10 +7,10 @@
     z-index: 2;
 }
 
-#freeGames {
-    color: #272B30;
-
+#freeGames:active,#freeGames:focus {
+    color: #F3C201;
 }
+
 
 #freeGames li a {
     color: #272B30;
@@ -23,17 +23,12 @@
 }
 
 
-#browserGames {
-    /*color: RGB(0 170 158)*/
-    color: #272B30;
-}
-
-#browserGames li a{
+#browserGames li a {
     color: #272B30;
 }
 
 
-#browserGames li a:visited {
+#browserGames:focus , #browserGames:active {
     color: RGB(0 170 158)
 }
 
