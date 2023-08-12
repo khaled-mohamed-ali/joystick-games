@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cb25ee96-01fb-48db-9095-3d5136497af2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/serverComponents/RecentlyAdded.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/serverComponents/RecentlyAdded.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
@@ -96,7 +96,7 @@
       <workItem from="1691611862906" duration="8269000" />
       <workItem from="1691681655370" duration="1141000" />
       <workItem from="1691683815569" duration="11826000" />
-      <workItem from="1691774255988" duration="7982000" />
+      <workItem from="1691774255988" duration="11670000" />
     </task>
     <servers />
   </component>

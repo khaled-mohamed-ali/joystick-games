@@ -32,7 +32,7 @@ const RecentlyAdded = async () => {
                                 <p className='text-truncate discrepColor mb-1'>{short_description}</p>
                                 <span className='fontSize4 genre badge-secondary text-dark mr-2 '>{genre}</span>
                             </div>
-                            <div className='col-3 d-flex justify-content-around  align-items-center  pe-ms-0 ps-ms-3 px-0'>
+                            <div className='col-3 d-flex justify-content-around  align-items-center  pe-sm-2 ps-ms-3 px-0'>
                                 <h5 className='discrepColor'>
                                     {platform == 'PC (Windows)' ? <BsWindows/> : <MdOutlineWebAsset className="fs-4"/>}
                                 </h5>
