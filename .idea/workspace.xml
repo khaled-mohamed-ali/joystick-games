@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cb25ee96-01fb-48db-9095-3d5136497af2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
@@ -20,6 +19,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="ProjectId" id="2QjbaAShHRIbSGhn9qbaa3XvGsa" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -96,7 +98,8 @@
       <workItem from="1691611862906" duration="8269000" />
       <workItem from="1691681655370" duration="1141000" />
       <workItem from="1691683815569" duration="11826000" />
-      <workItem from="1691774255988" duration="11670000" />
+      <workItem from="1691774255988" duration="14266000" />
+      <workItem from="1691855389106" duration="2366000" />
     </task>
     <servers />
   </component>
