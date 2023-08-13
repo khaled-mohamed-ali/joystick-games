@@ -30,7 +30,7 @@ const Page = async ({params}) => {
 
     return (
 
-        <div  className={styles.main} >
+        <div className={styles.main}>
             <div style={{
                 backgroundImage: `url(${game.screenshots && game.screenshots[0]?.image})`,
                 height: '520px',
@@ -52,10 +52,9 @@ const Page = async ({params}) => {
             }}>
                 <div className="row pb-5">
                     <Suspense fallback={<Loading/>}>
-                    <div className=" col-12 col-4 col-md-4 mt-4 gx-5">
-                        <LeftSideGameCard {...game}/>
-                    </div>
-
+                        <div className=" col-12 col-4 col-md-4 mt-4 gx-5">
+                            <LeftSideGameCard {...game}/>
+                        </div>
                         <div className="col-12 col-md-8">
                             <GameStatistics {...game}/>
                             <RightSideGameDetails {...game}/>

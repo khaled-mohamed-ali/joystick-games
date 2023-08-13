@@ -10,8 +10,8 @@ import GameCardByCategory from "@/app/components/serverComponents/gameCardByCate
 const SearchPart = (props) => {
 
     const games = props.games;
-    const [searchInput, setSearchInput] = useState();
-    const [query, setQuery] = useState('');
+    const [searchInput, setSearchInput] = useState("");
+    const [query, setQuery] = useState("");
 
     let filterdGames = games.filter(game => {
         const gameTitle = game.title.toLowerCase();
@@ -21,7 +21,7 @@ const SearchPart = (props) => {
     })
 
     useEffect(() => {
-        const timeOut = setTimeout(() => setSearchInput(query), 500)
+        const timeOut = setTimeout(() => setSearchInput(query), 1000)
         return () => clearTimeout((timeOut))
     }, [query])
 
@@ -30,7 +30,7 @@ const SearchPart = (props) => {
     }
 
     return (
-        <div className="mb-5">
+        <div className="row mb-5">
             <h2 className="mainColor"><BiSearchAlt2/> Find Games</h2>
             <hr className="discrepColor"/>
             <div className="col-lg-5 px-2 px-lg-0">
@@ -42,15 +42,16 @@ const SearchPart = (props) => {
                        autocomplete="off"
                 />
             </div>
-
-            <div className="row">
-                {filterdGames.map((game,index) => {
-                    return (
-                        <div className="col-xl-3 col-md-4 col-12 mb-4" key={index}>
-                            <GameCardByCategory {...game}/>
-                        </div>
-                    )
-                })}
+            <div className="col-12">
+                <div className="row">
+                    {filterdGames.map((game, index) => {
+                        return (
+                            <div className="col-xl-3 col-md-4 col-12 mb-4" key={index}>
+                                <GameCardByCategory {...game}/>
+                            </div>
+                        )
+                    })}
+                </div>
             </div>
         </div>
 
