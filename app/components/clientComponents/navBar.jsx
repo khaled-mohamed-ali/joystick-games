@@ -2,10 +2,8 @@
 import React, {useState} from 'react';
 import Link from "next/link";
 import {BiSearchAlt2} from 'react-icons/bi'
-import {GrGamepad} from 'react-icons/gr'
 import navBarStyle from '../../style/navBar.module.css'
 import {useEffect} from "react";
-import {usePathname} from "next/navigation";
 
 const NavBar = (params) => {
     const [linkStyle,setLinkStyle] = useState();
@@ -22,7 +20,7 @@ const NavBar = (params) => {
                         <img src={"./Game-Controller-Transparent.png"} className={navBarStyle.logo}/>
                         JOYSTICK
                     </Link>
-                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    <button id={navBarStyle.menuButton} className="navbar-toggler" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
                             aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>

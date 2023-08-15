@@ -11,6 +11,10 @@
     color: #F3C201;
 }
 
+#menuButton:focus {
+    box-shadow: 0 0 0
+}
+
 
 #freeGames li a {
     color: #272B30;
